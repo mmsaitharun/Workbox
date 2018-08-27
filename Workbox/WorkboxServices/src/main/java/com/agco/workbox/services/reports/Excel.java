@@ -19,7 +19,7 @@ import org.springframework.stereotype.Component;
 
 import com.agco.workbox.services.dto.DownloadReportResponseDto;
 import com.agco.workbox.services.dto.ReportFormattedDto;
-import com.agco.workbox.services.dto.ResponseMessage;
+import com.agco.workbox.util.common.dto.ResponseMessage;
 import com.agco.workbox.util.component.ServicesUtil;
 
 /**

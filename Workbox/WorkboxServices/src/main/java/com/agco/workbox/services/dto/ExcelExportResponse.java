@@ -9,6 +9,7 @@ import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.Row;
 
+import com.agco.workbox.util.common.dto.ProcessEventsDto;
 import com.agco.workbox.util.component.ExcelExportUtility;
 
 public class ExcelExportResponse extends ExcelExportUtility<ProcessEventsDto> {

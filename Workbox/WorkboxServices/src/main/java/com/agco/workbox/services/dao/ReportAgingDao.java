@@ -13,8 +13,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.agco.workbox.services.dto.ReportAgingDto;
 import com.agco.workbox.services.entity.ReportAgingDo;
+import com.agco.workbox.util.common.dto.ReportAgingDto;
 import com.agco.workbox.util.component.NoResultFault;
 import com.agco.workbox.util.component.ServicesUtil;
 

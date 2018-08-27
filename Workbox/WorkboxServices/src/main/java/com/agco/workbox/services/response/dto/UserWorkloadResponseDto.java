@@ -2,8 +2,8 @@ package com.agco.workbox.services.response.dto;
 
 import java.util.List;
 
-import com.agco.workbox.services.dto.ResponseMessage;
 import com.agco.workbox.services.dto.UserWorkloadDto;
+import com.agco.workbox.util.common.dto.ResponseMessage;
 
 public class UserWorkloadResponseDto {
 
@@ -30,7 +30,5 @@ public class UserWorkloadResponseDto {
 	public String toString() {
 		return "UserWorkloadResponseDto [userWorkloadDtos=" + userWorkloadDtos + ", message=" + message + "]";
 	}
-
-
 
 }

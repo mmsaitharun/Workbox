@@ -10,6 +10,8 @@ import javax.persistence.SqlResultSetMapping;
 import javax.persistence.SqlResultSetMappings;
 import javax.persistence.Table;
 
+import com.agco.workbox.util.entity.BaseDo;
+
 @Entity
 @Table(name = "TASK_STEP_MAPPING")
 @SqlResultSetMappings({ @SqlResultSetMapping(name = "parallelTaskResults", columns = { @ColumnResult(name = "TASK_SLA_ID") }) })

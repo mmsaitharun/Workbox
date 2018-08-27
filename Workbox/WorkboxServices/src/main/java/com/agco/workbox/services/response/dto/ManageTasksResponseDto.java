@@ -2,9 +2,9 @@ package com.agco.workbox.services.response.dto;
 
 import java.util.List;
 
-import com.agco.workbox.services.dto.ManageTasksDto;
-import com.agco.workbox.services.dto.PMCReportBaseDto;
-import com.agco.workbox.services.dto.ResponseMessage;
+import com.agco.workbox.util.common.dto.ManageTasksDto;
+import com.agco.workbox.util.common.dto.PMCReportBaseDto;
+import com.agco.workbox.util.common.dto.ResponseMessage;
 
 public class ManageTasksResponseDto extends PMCReportBaseDto {
 

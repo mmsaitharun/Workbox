@@ -11,6 +11,8 @@ import javax.persistence.SqlResultSetMapping;
 import javax.persistence.SqlResultSetMappings;
 import javax.persistence.Table;
 
+import com.agco.workbox.util.entity.BaseDo;
+
 /**
  * Entity implementation class for Entity: RuleManagementDo
  *

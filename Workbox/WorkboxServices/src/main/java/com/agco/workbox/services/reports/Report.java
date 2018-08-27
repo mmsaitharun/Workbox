@@ -1,7 +1,7 @@
 package com.agco.workbox.services.reports;
 
-import com.agco.workbox.services.dto.PMCReportBaseDto;
 import com.agco.workbox.services.dto.ReportPayload;
+import com.agco.workbox.util.common.dto.PMCReportBaseDto;
 
 /**
  * @author Saurabh

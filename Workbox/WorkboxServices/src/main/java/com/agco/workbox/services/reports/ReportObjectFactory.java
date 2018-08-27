@@ -5,11 +5,11 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.agco.workbox.services.dao.ProcessEventsDao;
-import com.agco.workbox.services.dao.TaskEventsDao;
-import com.agco.workbox.services.dao.TaskOwnersDao;
 import com.agco.workbox.util.component.PMCConstant;
 import com.agco.workbox.util.component.ServicesUtil;
+import com.agco.workbox.util.dao.ProcessEventsDao;
+import com.agco.workbox.util.dao.TaskEventsDao;
+import com.agco.workbox.util.dao.TaskOwnersDao;
 
 @Component("ReportObjectFactory")
 public class ReportObjectFactory {

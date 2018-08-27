@@ -1,5 +1,7 @@
 package com.agco.workbox.services.dto;
 
+import com.agco.workbox.util.common.dto.ResponseMessage;
+
 public class DownloadReportResponseDto {
 	private String base64;
 	private byte[] file;

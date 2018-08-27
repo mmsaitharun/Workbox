@@ -11,6 +11,8 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
+import com.agco.workbox.util.entity.BaseDo;
+
 @Entity
 @Table(name = "COLLABORATION")
 public class CollaborationDo implements BaseDo, Serializable {

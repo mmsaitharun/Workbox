@@ -2,6 +2,8 @@ package com.agco.workbox.services.dto;
 
 import java.util.List;
 
+import com.agco.workbox.util.common.dto.ReportAgingDto;
+
 public class ReportPayload {
 	private String reportName;
 	private String fileFormate;

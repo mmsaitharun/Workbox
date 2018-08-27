@@ -2,6 +2,8 @@ package com.agco.workbox.services.dto;
 
 import java.util.List;
 
+import com.agco.workbox.util.common.dto.ResponseMessage;
+import com.agco.workbox.util.common.dto.TaskOwnersDto;
 import com.agco.workbox.util.component.EnOperation;
 import com.agco.workbox.util.component.InvalidInputFault;
 

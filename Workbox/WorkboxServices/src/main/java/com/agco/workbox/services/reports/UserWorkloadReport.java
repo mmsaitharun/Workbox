@@ -3,11 +3,11 @@ package com.agco.workbox.services.reports;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.agco.workbox.services.dao.ProcessEventsDao;
-import com.agco.workbox.services.dto.PMCReportBaseDto;
 import com.agco.workbox.services.dto.ReportPayload;
-import com.agco.workbox.services.dto.UserProcessDetailRequestDto;
+import com.agco.workbox.util.common.dto.PMCReportBaseDto;
+import com.agco.workbox.util.common.dto.UserProcessDetailRequestDto;
 import com.agco.workbox.util.component.ServicesUtil;
+import com.agco.workbox.util.dao.ProcessEventsDao;
 
 /**
  * @author Saurabh

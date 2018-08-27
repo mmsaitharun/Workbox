@@ -2,8 +2,8 @@ package com.agco.workbox.services.response.dto;
 
 import java.util.List;
 
-import com.agco.workbox.services.dto.ResponseMessage;
-import com.agco.workbox.services.dto.UserDetailsDto;
+import com.agco.workbox.util.common.dto.ResponseMessage;
+import com.agco.workbox.util.common.dto.UserDetailsDto;
 
 public class UserDetailsResponse {
 

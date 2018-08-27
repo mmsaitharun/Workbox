@@ -8,6 +8,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import com.agco.workbox.util.entity.BaseDo;
+
 @Entity
 @Table(name = "REPORT_AGING_CONFIG")
 public class ReportAgingDo implements BaseDo, Serializable {
