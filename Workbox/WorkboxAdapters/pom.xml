@@ -8,4 +8,7 @@
 	</parent>
 	<groupId>com.workbox.adapters</groupId>
 	<artifactId>WorkboxAdapters</artifactId>
+	<build>
+		<finalName>WorkboxAdapters</finalName>
+	</build>
 </project>

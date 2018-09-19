@@ -26,4 +26,8 @@
 		</dependency>
 
 	</dependencies>
+	
+	<build>
+		<finalName>WorkboxUtilities</finalName>
+	</build>
 </project>

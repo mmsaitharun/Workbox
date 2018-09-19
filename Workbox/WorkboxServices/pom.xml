@@ -42,4 +42,7 @@
 		</dependency>
 	</dependencies>
 	<groupId>com.workbox.services</groupId>
+	<build>
+		<finalName>WorkboxServices</finalName>
+	</build>
 </project>
