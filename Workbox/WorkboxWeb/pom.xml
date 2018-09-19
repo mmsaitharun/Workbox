@@ -4,7 +4,7 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.agco.workbox</groupId>
+		<groupId>com.workbox</groupId>
 		<artifactId>Workbox</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
@@ -21,22 +21,23 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.agco.workbox.adapters</groupId>
-			<artifactId>WorkflowAdapter</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
 			<groupId>com.agco.workbox</groupId>
 			<artifactId>WorkboxServices</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.agco.workbox.util</groupId>
+			<groupId>com.workbox.util</groupId>
 			<artifactId>WorkboxUtilities</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.workbox.services</groupId>
+			<artifactId>WorkboxServices</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 	<build>
 		<finalName>WorkboxWeb</finalName>
 	</build>
+	<groupId>com.workbox.web</groupId>
 </project>
